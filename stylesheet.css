@@ -1,6 +1,7 @@
 /*--------Mobile first CSS--------*/
 body {
     margin: 0;
+
 }
 
 .container {
@@ -175,6 +176,19 @@ a>p:nth-child(1) {
 
 /*-------Styling af billeder i menuen--------*/
 
+/*-------Styling af "til toppen" knap"--------*/
+
+body>a:first-child{
+    position: fixed;
+    bottom: 30px;
+    right: 1px;
+    margin-right: 0px;
+    background: black;
+}
+
+/*-------Styling af "til toppen" knap"--------*/
+
+
 /*-------Styling af text i menuen--------*/
 a>p:nth-child(2) {
     display: table-cell;
@@ -239,9 +253,10 @@ footer{
 
     a>p>img {
 
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
         border: 1.5px solid black;
+        object-fit: contain;
 
     }
 
