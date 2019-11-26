@@ -252,27 +252,27 @@ a:visited {
     header h1 {
         font-family: 'Kaushan Script', cursive;
         color: orange;
-        font-size: 6em;
+        font-size: 5em;
         margin-bottom: 0px;
     }
         
     header h3 {
         font-family: 'Bebas Neue', cursive;
         color: white;
-        font-size: 4em;
+        font-size: 3.4em;
         margin: 0px 0px 50px 0px;
     }
     #menu2 {
         border-radius: 80%;
-        height: 450px;
-        width: 450px;
+        height: 350px;
+        width: 350px;
         /*margin: 0px 10px 0px 200px;*/
         display: none;
     }   
     #menu2k {
         border-radius: 80%;
-        height: 600px;
-        width: 600px;
+        height: 400px;
+        width: 400px;
         display:initial;
     }
         
@@ -307,6 +307,40 @@ a:visited {
             'opskrifter opskrifter opskrifter opskrifter'
             'opskrifter opskrifter opskrifter opskrifter'
         ;
+    }
+    header h1 {
+        font-family: 'Kaushan Script', cursive;
+        color: orange;
+        font-size: 6em;
+        margin-bottom: 0px;
+    }
+        
+    header h3 {
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 4em;
+        margin: 0px 0px 50px 0px;
+    }
+    #menu2 {
+        border-radius: 80%;
+        height: 350px;
+        width: 350px;
+        /*margin: 0px 10px 0px 200px;*/
+        display: none;
+    }   
+    #menu2k {
+        border-radius: 80%;
+        height: 450px;
+        width: 450px;
+        display:initial;
+    }
+        
+    #kulbilled {
+        border-radius: 80%;
+        height: 350px;
+        width: 350px;
+        margin: 0px 0px 0px 350px;
+
     }
 }
 
