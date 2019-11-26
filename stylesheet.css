@@ -101,13 +101,7 @@ a {
 
 
 /* Styling af billeder*/
-img {
 
-    width: 100%;
-    height: auto;
-
-
-}
 #menu2 {
     border-radius: 80%;
     height: 150px;
@@ -128,16 +122,39 @@ img {
 /* Styling af menuen*/
 
 
-/* Styling af liste*/
+/*-------Styling af lister--------*/
 .sikkerhed>ol {
     padding-top: 1em;
     margin: auto;
 }
 
+ol{
+    display: inline-block;
+    border: 3px solid #000;
+    padding: 20px;
+}
+
+/*-------Styling af lister--------*/
+
+
+
 
 .header {
     grid-area: header;
 
+}
+
+
+
+
+/*-------Styling af billeder i menuen--------*/
+img {
+    
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    
+    
 }
 
 a {
@@ -150,18 +167,6 @@ a {
     border-color: black;
 }
 
-
-
-/* Styling af billeder i menuen*/
-img {
-
-    width: 100px;
-    height: 100px;
-    vertical-align: middle;
-
-
-}
-
 a:link {
     text-decoration: none;
 }
@@ -169,7 +174,7 @@ a:link {
 a:hover {
     text-decoration: none;
 }
-
+/*-------Styling af billeder i menuen--------*/
 
 
 /*--------Mobile first CSS--------*/
