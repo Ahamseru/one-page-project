@@ -1,8 +1,8 @@
-/*--------Mobile first CSS--------*/
+/* ---------------------Mobile first CSS ------------------------ */
 body {
     margin: 0;
-
 }
+
 
 .container {
     display: grid;
@@ -21,6 +21,7 @@ body {
         'opskrifter'
     ;
 }
+
 
 /*------Grid areas styling------*/
 .header {
@@ -153,12 +154,6 @@ ol {
 /*-------Styling af lister--------*/
 
 
-
-
-
-
-
-
 /*-------Styling af billeder i menuen--------*/
 a>p>img {
 
@@ -178,7 +173,7 @@ a>p:nth-child(1) {
 
 /*-------Styling af "til toppen" knap"--------*/
 
-body>a:first-child{
+body>a:first-child {
     position: fixed;
     bottom: 30px;
     right: 1px;
@@ -202,7 +197,8 @@ a {
     display: block;
     background-color: grey;
     margin: 0 1em 0 1em;
-    border: 1.5px solid black;
+    box-shadow: 3px 5px 3px black;
+    /* border: 1.5px solid black; */
 }
 
 
@@ -221,7 +217,7 @@ a:visited {
 
 }
 
-footer{
+footer {
     text-align: center;
     margin: 20px;
 }
@@ -229,10 +225,10 @@ footer{
 /*-------Styling af text i menuen--------*/
 
 
-/*--------Mobile first CSS--------*/
+/* ---------------------Mobile first CSS ------------------------ */
 
 
-/* -----Tablet CSS ----- */
+/* ---------------------Tablet CSS ------------------------ */
 @media screen and (min-width: 400px) {
 
     .container {
@@ -260,13 +256,13 @@ footer{
 
     }
 
-    [class*="menu"]{
+    [class*="menu"] {
 
         display: block;
 
     }
 
-    a>p:nth-child(2){
+    a>p:nth-child(2) {
 
         display: block;
         text-align: center;
@@ -277,10 +273,10 @@ footer{
 
 }
 
-/* -----Tablet CSS ----- */
+/* ---------------------Tablet CSS ------------------------ */
 
 
-/* -----Desktop CSS ----- */
+/* ---------------------Desktop CSS ------------------------ */
 @media screen and (min-width: 1000px) {
 
     .container {
@@ -324,7 +320,7 @@ footer{
         border-radius: 80%;
         height: 400px;
         width: 400px;
-        display:initial;
+        display: initial;
     }
 
     #kulbilled {
@@ -339,60 +335,4 @@ footer{
 
 }
 
-/* -----Tablet CSS ----- */
-
-
-/* -----Desktop CSS ----- */
-@media screen and (min-width: 1000px) {
-
-    .container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(7, auto);
-        grid-template-areas:
-            'header header header header'
-            'menu1 menu2 menu3 menu4'
-            'information information information information'
-            'grillguide grillguide grillguide grillguide'
-            'sikkerhed sikkerhed sikkerhed sikkerhed'
-            'opskrifter opskrifter opskrifter opskrifter'
-            'opskrifter opskrifter opskrifter opskrifter'
-        ;
-    }
-    header h1 {
-        font-family: 'Kaushan Script', cursive;
-        color: orange;
-        font-size: 6em;
-        margin-bottom: 0px;
-    }
-        
-    header h3 {
-        font-family: 'Bebas Neue', cursive;
-        color: white;
-        font-size: 4em;
-        margin: 0px 0px 50px 0px;
-    }
-    #menu2 {
-        border-radius: 80%;
-        height: 350px;
-        width: 350px;
-        /*margin: 0px 10px 0px 200px;*/
-        display: none;
-    }   
-    #menu2k {
-        border-radius: 80%;
-        height: 450px;
-        width: 450px;
-        display:initial;
-    }
-        
-    #kulbilled {
-        border-radius: 80%;
-        height: 350px;
-        width: 350px;
-        margin: 0px 0px 0px 350px;
-
-    }
-}
-
-/* -----Desktop CSS ----- */
+/* ---------------------Desktop CSS ------------------------ */
