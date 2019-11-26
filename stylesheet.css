@@ -22,6 +22,7 @@ body {
     ;
 }
 
+/* Grid areas styling*/
 .menu1 {
     grid-area: menu1;
 }
