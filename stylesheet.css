@@ -15,7 +15,7 @@ body {
         'menu4'
         'information'
         'grillguide'
-        'grillguide'
+        'grillguidebilleder'
         'sikkerhed'
         'opskrifter'
         'opskrifter'
@@ -57,7 +57,10 @@ body {
     margin: 20px;
 
 }
-
+.grillguidebilleder {
+    grid-area: grillguidebilleder;
+    margin: 20px;
+}
 .sikkerhed {
     grid-area: sikkerhed;
     margin: 20px;
@@ -124,10 +127,26 @@ header h3 {
 }
 
 /*------ header, og skrifttyper------*/
-
-
-
-
+/*-----billeder i grillguide----*/
+#grillblok {
+height:250px;
+width:250px ;
+float: left;
+border-radius: 80%;
+}
+#grillkul{
+height: 250px;
+width: 250px;
+float: right ;
+border-radius: 80%;
+}
+#grillen{
+height: 250px;
+width: 250px;
+float:left ;
+border-radius: 80%;
+}
+/*-----billeder i grillguide----*/
 /*  header billeder*/
 
 #menu2 {
@@ -161,6 +180,7 @@ ol {
     display: inline-block;
     border: 3px solid #000;
     padding: 20px;
+    background-color: orange;
 }
 
 /*------- lister--------*/
@@ -258,7 +278,7 @@ footer {
     text-align: center;
     margin: 0px;
     padding: 20px;
-    background: linear-gradient(white 10%, Black 50%);
+    background: linear-gradient(white 10%, Black 30%);
     color: orange;
 }
 
