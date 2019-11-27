@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -22,12 +21,9 @@ body {
     ;
 }
 
-
 /*------Grid areas styling------*/
 .header {
     grid-area: header;
-
-
 }
 
 .menu1 {
@@ -49,13 +45,11 @@ body {
 .information {
     grid-area: information;
     margin: 20px;
-
 }
 
 .grillguide {
     grid-area: grillguide;
     margin: 20px;
-
 }
 .grillguidebilleder {
     grid-area: grillguidebilleder;
@@ -64,7 +58,6 @@ body {
 .sikkerhed {
     grid-area: sikkerhed;
     margin: 20px;
-
 }
 
 .opskrifter {
@@ -72,33 +65,25 @@ body {
     margin: 20px;
 }
 
-/*------Grid areas styling------*/
-
 /*------ header, og skrifttyper------*/
 
-
-p,
-span {
+p,span {
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 h2 {
     font-family: 'Bebas Neue', cursive;
     color: orange;
     padding-top: 20px;
 }
-
-h3,
-h4 {
+h3,h4 {
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 h4 {
     font-size: 1.1em;
 }
 
 .opskrifter>h4 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 li {
@@ -390,8 +375,6 @@ hr {
 
     }
 
-
-
 }
 
 /* ---------------------Tablet CSS ------------------------ */
@@ -412,7 +395,31 @@ hr {
             'menu1 menu2 menu3 menu4';
 
     }
-
+    .information {
+        grid-area: information;
+        margin: 50px;
+    
+    }
+    
+    .grillguide {
+        grid-area: grillguide;
+        margin: 50px;
+    
+    }
+    .grillguidebilleder {
+        grid-area: grillguidebilleder;
+        margin: 50px;
+    }
+    .sikkerhed {
+        grid-area: sikkerhed;
+        margin: 50px;
+    
+    }
+    
+    .opskrifter {
+        grid-area: opskrifter;
+        margin: 50px;
+    }
     a>p>img {
 
         display: none;
@@ -431,7 +438,7 @@ hr {
         background-color: orange;
     }
 
-
+/*---Styling af header----*/
     header h1 {
         font-family: 'Kaushan Script', cursive;
         color: orange;
@@ -478,8 +485,8 @@ hr {
     h4 {
         font-size: 1.5em;
         }
-
-    /*-------Styling af text i menuen--------*/
+    
+    /*-------Styling af billeder i opskrifter--------*/
     #kylling {
         height: 450px;
         width: 500px;
@@ -502,8 +509,6 @@ hr {
     
 
     }
-
-    /*-------Styling af billeder------*/
 
 
 }
