@@ -307,11 +307,19 @@ hr {
 #kylling {
     height: 350px;
     width: 350px;
-    border-radius: 80%;
-    margin: 0px 0px 0px 450px;
+    border-radius: 80%;   
+    
 }
-#bof {}
-#rejer {}
+#bof {
+height: 350px;
+    width: 350px;
+    border-radius: 80%;
+}
+#rejer {
+    height: 350px;
+    width: 350px;
+    border-radius: 80%;
+}
 
 /*-------Styling af billeder------*/
 header h1 {
