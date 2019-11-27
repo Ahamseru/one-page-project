@@ -304,7 +304,12 @@ hr {
         text-align: center;
     }
 /*-------Styling af text i menuen--------*/
-#kylling {}
+#kylling {
+    height: 350px;
+    width: 350px;
+    border-radius: 80%;
+    margin: 0px 0px 0px 450px;
+}
 #bof {}
 #rejer {}
 
