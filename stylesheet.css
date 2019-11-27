@@ -219,9 +219,25 @@ a:visited {
 
 }
 
-
 /*-------Styling af text i menuen--------*/
+#kylling {
+    height:180px;
+    width: 180px;
+}
+#bof {
+    height:180px;
+    width: 180px;
+}
+#rejer {
+    height:180px;
+    width: 180px;
+}
 
+/*-------Styling af billeder------*/
+
+
+
+/*-------Styling af billeder------*/
 footer {
     text-align: center;
     margin: 0px;
@@ -272,6 +288,12 @@ footer {
         display: block;
         text-align: center;
     }
+/*-------Styling af text i menuen--------*/
+#kylling {}
+#bof {}
+#rejer {}
+
+/*-------Styling af billeder------*/
 
 
 
@@ -350,6 +372,12 @@ footer {
         margin: 0px 0px 0px 150px;
 
     }
+/*-------Styling af text i menuen--------*/
+#kylling {}
+#bof {}
+#rejer {}
+
+/*-------Styling af billeder------*/
 
 
 
