@@ -226,12 +226,32 @@ a:visited {
     color: orange;
 
 }
-
-
 /*------- text i menuen--------*/
+
+/*-------Styling af text i menuen--------*/
+#kylling {
+    height:180px;
+    width: 180px;
+}
+#bof {
+    height:180px;
+    width: 180px;
+}
+#rejer {
+    height:180px;
+    width: 180px;
+}
+
+
+/*-------Styling af billeder------*/
 
 
 /*------- footer og <hr> --------*/
+
+
+
+/*-------Styling af billeder------*/
+
 footer {
     text-align: center;
     margin: 0px;
@@ -286,6 +306,12 @@ hr {
         display: block;
         text-align: center;
     }
+/*-------Styling af text i menuen--------*/
+#kylling {}
+#bof {}
+#rejer {}
+
+/*-------Styling af billeder------*/
 
 
 
@@ -365,6 +391,12 @@ hr {
         margin: 0px 0px 0px 150px;
 
     }
+/*-------Styling af text i menuen--------*/
+#kylling {}
+#bof {}
+#rejer {}
+
+/*-------Styling af billeder------*/
 
 
 }
