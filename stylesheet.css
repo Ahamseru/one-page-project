@@ -229,7 +229,10 @@ a:visited {
 /*-------Styling af footer og <hr> --------*/
 footer {
     text-align: center;
-    margin: 20px;
+    margin: 0px;
+    padding-top: 20px;
+    background: linear-gradient(white 10%, Black 50%);
+    color:orange;
 }
 
 hr {
