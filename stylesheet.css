@@ -413,7 +413,7 @@ hr {
         /* position: absolute; */
         left: 590px;
         top: 2970px;
-        z-index: -1;
+       
     }
 }
     /* ---------------------Tablet CSS ------------------------ */
@@ -446,7 +446,6 @@ hr {
             margin: 50px;
 
         }
-
 
         .sikkerhed {
             grid-area: sikkerhed;
