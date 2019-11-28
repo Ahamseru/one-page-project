@@ -384,10 +384,7 @@ hr {
     }
 
     /*----Styling af billeder i Grillguiden-----*/
-    .grillguidebilleder>img{
-        width: 100%;
-        height: auto;
-    }
+  
 
     #grillblok {
         height: 350px;
@@ -450,10 +447,6 @@ hr {
 
         }
 
-        .grillguidebilleder {
-            grid-area: grillguidebilleder;
-            margin: 50px;
-        }
 
         .sikkerhed {
             grid-area: sikkerhed;
@@ -547,7 +540,7 @@ hr {
             /* position: absolute; */
             left:800px;
             top: 1870px;
-            z-index: +1;
+            
         }
         /*-----Styling af text i opskrifter-----*/
         h2 {
