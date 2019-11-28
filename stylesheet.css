@@ -54,7 +54,7 @@ body {
 
 .grillguidebilleder {
     grid-area: grillguidebilleder;
-    margin: 20px;
+    ;
 }
 
 .sikkerhed {
@@ -202,7 +202,7 @@ body>a:first-child {
     position: fixed;
     bottom: 30px;
     right: 1px;
-    margin-right: 0px;
+    margin: 0;
     background: black;
     color: orange;
 }
@@ -269,7 +269,7 @@ a:visited {
 
 footer {
     text-align: center;
-    margin: 0px;
+    margin: auto;
     padding: 20px;
     background: linear-gradient(white 10%, Black 30%);
     color: orange;
@@ -384,6 +384,11 @@ hr {
     }
 
     /*----Styling af billeder i Grillguiden-----*/
+    .grillguidebilleder>img{
+        width: 100%;
+        height: auto;
+    }
+
     #grillblok {
         height: 350px;
         width: 350px;
@@ -397,7 +402,7 @@ hr {
         width: 350px;
         float: right;
         border-radius: 100%;
-        position: absolute;
+        /* position: absolute; */
         left: 300px;
         top: 2650px;
         
@@ -408,7 +413,7 @@ hr {
         width: 350px;
         float: center;
         border-radius: 100%;
-        position: absolute;
+        /* position: absolute; */
         left: 590px;
         top: 2685px;
         z-index: -1;
@@ -521,7 +526,7 @@ hr {
             width:350px ;
             float: left;
             border-radius: 100%;
-            position: absolute;
+            /* position: absolute; */
             left: 800px;
             top: 1540px;
         }
@@ -530,7 +535,7 @@ hr {
             width: 350px;
             float: right ;
             border-radius: 100%;
-            position: absolute;
+            /* position: absolute; */
             left: 1080px;
             top: 1715px;
         }
@@ -539,7 +544,7 @@ hr {
             width: 350px;
             float:left ;
             border-radius: 100%;
-            position: absolute;
+            /* position: absolute; */
             left:800px;
             top: 1870px;
             z-index: +1;
