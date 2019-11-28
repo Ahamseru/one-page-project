@@ -399,7 +399,7 @@ hr {
         border-radius: 100%;
         position: absolute;
         left: 300px;
-        top: 2650px;
+        top: 2930px;
         
     }
 
@@ -410,7 +410,7 @@ hr {
         border-radius: 100%;
         position: absolute;
         left: 590px;
-        top: 2685px;
+        top: 2970px;
         z-index: -1;
     }
 }
@@ -523,7 +523,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left: 800px;
-            top: 1540px;
+            top: 1680px;
         }
         #grillkul{
             height: 350px;
@@ -532,7 +532,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left: 1080px;
-            top: 1715px;
+            top: 1830px;
         }
         #grillen{
             height: 350px;
@@ -541,7 +541,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left:800px;
-            top: 1870px;
+            top: 1990px;
             z-index: +1;
         }
         /*-----Styling af text i opskrifter-----*/
