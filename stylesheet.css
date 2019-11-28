@@ -523,7 +523,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left: 800px;
-            top: 1550px;
+            top: 1540px;
         }
         #grillkul{
             height: 350px;
@@ -532,7 +532,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left: 1080px;
-            top: 1725px;
+            top: 1715px;
         }
         #grillen{
             height: 350px;
@@ -541,7 +541,7 @@ hr {
             border-radius: 100%;
             position: absolute;
             left:800px;
-            top: 1900px;
+            top: 1870px;
             z-index: +1;
         }
         /*-----Styling af text i opskrifter-----*/
