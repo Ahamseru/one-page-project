@@ -385,24 +385,33 @@ hr {
 
     /*----Styling af billeder i Grillguiden-----*/
     #grillblok {
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 350px;
         float: left;
-        border-radius: 80%;
+        border-radius: 100%;
+        
     }
 
     #grillkul {
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 350px;
         float: right;
-        border-radius: 80%;
+        border-radius: 100%;
+        position: absolute;
+        left: 300px;
+        top: 2650px;
+        
     }
 
     #grillen {
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 350px;
         float: center;
-        border-radius: 80%;
+        border-radius: 100%;
+        position: absolute;
+        left: 590px;
+        top: 2685px;
+        z-index: -1;
     }
 }
     /* ---------------------Tablet CSS ------------------------ */
@@ -508,22 +517,32 @@ hr {
         }
         /*---Styling af billeder i grillguiden---*/
         #grillblok {
-            height:250px;
-            width:250px ;
+            height:350px;
+            width:350px ;
             float: left;
-            border-radius: 80%;
-            }
+            border-radius: 100%;
+            position: absolute;
+            left: 800px;
+            top: 1550px;
+        }
         #grillkul{
-            height: 250px;
-            width: 250px;
+            height: 350px;
+            width: 350px;
             float: right ;
-            border-radius: 80%;
-            }
+            border-radius: 100%;
+            position: absolute;
+            left: 1080px;
+            top: 1725px;
+        }
         #grillen{
-            height: 250px;
-            width: 250px;
+            height: 350px;
+            width: 350px;
             float:left ;
-            border-radius: 80%;
+            border-radius: 100%;
+            position: absolute;
+            left:800px;
+            top: 1900px;
+            z-index: +1;
         }
         /*-----Styling af text i opskrifter-----*/
         h2 {
