@@ -119,22 +119,22 @@ header h3 {
 
 /*-----billeder i grillguide----*/
 #grillblok {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     float: left;
     border-radius: 80%;
 }
 
 #grillkul {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     float: right;
     border-radius: 80%;
 }
 
 #grillen {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     float: left;
     border-radius: 80%;
 }
@@ -388,26 +388,27 @@ hr {
     }
 
     #grillblok {
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
         float: left;
         border-radius: 100%;
         
     }
 
     #grillkul {
-        height: 350px;
-        width: 350px;
-        float: right;
+        height: 250px;
+        width: 250px;
+        float: inherit;
         border-radius: 100%;
+        padding: 3px;
        
         
     }
 
     #grillen {
-        height: 350px;
-        width: 350px;
-        float: center;
+        height: 250px;
+        width: 250px;
+        float: inherit;
         border-radius: 100%;
     
     }
@@ -515,23 +516,24 @@ hr {
         }
         /*---Styling af billeder i grillguiden---*/
         #grillblok {
-            height:420px;
-            width:420px ;
+            height:400px;
+            width:400px ;
             float: left;
             border-radius: 100%;
            
         }
         #grillkul{
-            height: 420px;
-            width: 420px;
-            float: none ;
+            height: 400px;
+            width: 400px;
+            float: inherit;
             border-radius: 100%;
+            padding: 14px;
            
         }
         #grillen{
-            height: 420px;
-            width: 420px;
-            float:right ;
+            height: 400px;
+            width: 400px;
+            float:inherit ;
             border-radius: 100%;
         }
         /*-----Styling af text i opskrifter-----*/
