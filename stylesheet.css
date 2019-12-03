@@ -288,7 +288,7 @@ hr {
 
 
 /* ---------------------Tablet CSS ------------------------ */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 800px) {
 
     .container {
         display: grid;
@@ -417,7 +417,7 @@ hr {
 
 
     /* ---------------------Desktop CSS ------------------------ */
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1200px) {
 
         .container {
             display: grid;
